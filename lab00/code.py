@@ -16,7 +16,6 @@ def fizzbuzz(num):
   else:
       print(f"{num}: {num}")
 
-
 for i in range(1, 20):
   fizzbuzz(i)
 
