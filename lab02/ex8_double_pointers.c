@@ -18,6 +18,7 @@ void create_student_2(Student** student_double_ptr, int id) {
   *student_double_ptr = malloc(sizeof(Student));
 
   (*student_double_ptr)->id = id;
+  
 }
 
 
@@ -29,6 +30,8 @@ int main() {
   free(student1_ptr);
 
   Student* student2_ptr = malloc(sizeof(Student));
+
+  free(student2_ptr);
 
   create_student_2(&student2_ptr, 6);
 
