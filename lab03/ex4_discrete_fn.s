@@ -6,8 +6,8 @@
 # The return value should be stored in a0
 f:
     # Your code here
-    addi t1, a0, 3
-    slli t2, t1, 2
+    addi t1, a0, 3 # t1 = a0 + 3
+    slli t2, t1, 2 # t2 = t1 * 4
     add t2, t2, a1
     lw a0, 0(t2)
 
