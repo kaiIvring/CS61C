@@ -1,1 +1,1 @@
-Labs and Discussions for CS61C sp25
+Labs, Discussions and Projects for CS61C sp25
