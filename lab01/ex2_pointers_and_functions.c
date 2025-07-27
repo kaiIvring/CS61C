@@ -4,9 +4,7 @@ void add_one(int input) {
   input += 1;
 }
 
-// TODO: create a pointer to input
 void add_one_pointer(int* input) {
-  // TODO: add one to the integer that input points to
   *input += 1;
 }
 
@@ -23,7 +21,6 @@ int main() {
 
   // Let's try using add_one_pointer
 
-  // TODO: use add_one_pointer to increment x
   // Hint: compare the type of x with the type of the argument
   //       for add_one_pointer
   add_one_pointer(&x);
